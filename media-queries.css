@@ -85,6 +85,10 @@
 }
 
 @media screen and (max-width:740px) {
+    #header .row {
+        /* height: 80px; */
+        border-bottom: none;
+    }    
     .row {
         border-bottom: 0px;
         background-color: transparent;
@@ -228,7 +232,7 @@
         display: inline;
     }
     #hero-card-section .row-2 .hero-card-slider {
-        background-image: url(images/Slider_M1.webp);
+        background-image: url(images/m_Image_24.webp);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
